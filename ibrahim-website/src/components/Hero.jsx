@@ -17,20 +17,21 @@ const Hero = () => {
             <div className=''>
                 <p className='text-xl font-bold'>
                     now working on:
-                    <li className='text-base font-normal'>building <a href='https://www.platefyco.com' className='text-blue-700 hover:underline' target='_self'>Platefy</a>, a foodtech startup that is connecting chefs and suppliers</li>
+                    <li className='text-base font-normal'>building <a href='https://www.platefyco.com' className='text-blue-700 hover:underline' target='blank'>Platefy</a>, a foodtech startup that is connecting chefs and suppliers</li>
                     <li className='text-base font-normal'>learning algorithms and data structures, computer architecture, and distributed systems</li>
                 </p>
                 <p className='text-xl font-bold'>
                     past:
-                    <li className='text-base font-normal'>building <a href='https://www.platefyco.com' className='text-blue-700 hover:underline' target='_self'>Platefy</a>, a foodtech startup that is connecting chefs and suppliers</li>
-                    <li className='text-base font-normal'>learning algorithms and data structures, computer architecture, and distributed systems</li>
+                    <li className='text-base font-normal'>studied Psychology at UNC (gdtbath)</li>
+                    <li className='text-base font-normal'>built my first software <a href='https://www.youtube.com/watch?v=zlxrQbq41dc&t=4s&ab_channel=PhpAbdi' className='text-blue-700 hover:underline' target='blank'>AbdiNet</a> at ~11 years old and demo'd it on YT (: </li>
+                    <li className='text-base font-normal'></li>
                 </p>
             </div>
             <div className='rounded-md bg-lime-100 h- w-full '>
-                <ul className='flex  flex-row gap-5 justify-center'>
-                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-2 py-2 gap-2 items-center '><AiOutlineTwitter />twitter</button>
-                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-5 py-1 mr-4 mb-5 gap-2 items-center'><AiFillGithub />github</button>
-                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-5 py-1 mr-3 mb-2 gap-2 items-center'><AiFillLinkedin />linkedin</button>
+                <ul className='flex flex-row gap-5 justify-center'>
+                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-4 py-2 gap-2 items-center'><AiOutlineTwitter size={22} />twitter</button>
+                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-4 py-2 gap-2 items-center'><AiFillGithub size={22} />github</button>
+                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-4 py-2 gap-2 items-center'><AiFillLinkedin size={22} />linkedin</button>
                 </ul>
             </div>
         </div>
