@@ -28,27 +28,21 @@ const Hero = () => {
             <div className=''>
                 <p className='text-xl font-bold'>
                     now working on:
-                    <li className='text-base font-normal'>building <a href='https://www.platefyco.com' className='text-blue-700 hover:underline' rel="noopener noreferrer" target="_blank">Platefy</a>, a foodtech startup that is connecting chefs and suppliers</li>
+                    <li className='text-base font-normal'>building <a href='https://www.platefyco.com' className='text-blue-700 hover:underline' target='_self'>Platefy</a>, a foodtech startup that is connecting chefs and suppliers</li>
                     <li className='text-base font-normal'>learning algorithms and data structures, computer architecture, and distributed systems</li>
                     <li className='text-base font-normal'>reading up on entrepreneurship, leadership, economics, etc </li>
                 </p>
                 <p className='text-xl font-bold'>
-                    others:
-                    <li className='text-base font-normal'>built a social media platform, <a href='https://www.abdinet.com' className='text-blue-700 hover:underline' rel="noopener noreferrer" target="_blank">AbdiNet</a>, to connect with my primary school classmates after ZuckNet at the age of 11 years old</li>
-                    <li className='text-base font-normal'>sold niche digital (game) products online as teenager in which i made over $1K+ MRR</li>
+                    past:
+                    <li className='text-base font-normal'>building <a href='https://www.platefyco.com' className='text-blue-700 hover:underline' target='_self'>Platefy</a>, a foodtech startup that is connecting chefs and suppliers</li>
+                    <li className='text-base font-normal'>learning algorithms and data structures, computer architecture, and distributed systems</li>
                 </p>
             </div>
             <div className='rounded-md bg-lime-100 h- w-full '>
-                <ul className='flex flex-row gap-5 justify-center'>
-                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-4 py-2 gap-2 items-center'><AiOutlineTwitter size={22} style={{color: '#00ACEE'}} />
-                        <a href='https://www.twitter.com/abdiths' rel="noopener noreferrer" target="_blank">twitter</a>
-                    </button>
-                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-4 py-2 gap-2 items-center'><AiFillGithub size={22} />
-                        <a href='https://www.github.com/' rel="noopener noreferrer" target="_blank">github</a>
-                    </button>
-                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-4 py-2 gap-2 items-center'><AiFillLinkedin size={22} style={{color: '#0072b1'}} />
-                        <a href='https://www.linkedin.com/' rel="noopener noreferrer" target="_blank">linkedin</a>
-                    </button>
+                <ul className='flex  flex-row gap-5 justify-center'>
+                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-2 py-2 gap-2 items-center '><AiOutlineTwitter />twitter</button>
+                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-5 py-1 mr-4 mb-5 gap-2 items-center'><AiFillGithub />github</button>
+                    <button className='border border-slate-300 hover:border-slate-400 bg-white rounded-lg text-black flex px-5 py-1 mr-3 mb-2 gap-2 items-center'><AiFillLinkedin />linkedin</button>
                 </ul>
             </div>
         </div>
